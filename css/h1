@@ -166,12 +166,46 @@ nav.spot a{
     width:100%;
     color:#000;
     font-size: 18px;
-    
-    
-    /* background-color: #dadada; */
-    /* padding-top:10px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 10px; */
 }
 
+section.main__page__visual {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+section.main__page__visual .swiper-container .swiper-wrapper .swiper-slide {
+    position: relative;
+}
+
+section.main__page__visual .swiper-container .swiper-wrapper .swiper-slide .img-box {
+    height: 833px;
+}
+
+section.main__page__visual .swiper-container .swiper-wrapper .swiper-slide .img-box img {
+    width: 100%;
+}
+
+section.main__page__visual .swiper-container .swiper-wrapper .swiper-slide .txt-box {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    text-align: center;
+}
+
+section.main__page__visual .swiper-container .swiper-pagination {
+    bottom: 87px;
+}
+
+section.main__page__visual .swiper-container .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    border: 3px solid #fff;
+    background-color: transparent;
+    opacity: 1;
+}
+
+section.main__page__visual .swiper-container .swiper-pagination-bullet-active {
+    background-color: #fff;
+}

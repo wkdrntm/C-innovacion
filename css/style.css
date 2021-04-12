@@ -1,8 +1,24 @@
+.inner {
+    max-width: 1300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container {
+    overflow: auto;
+    position: relative;
+    padding-bottom: 137px;
+    min-height: 100%;
+    min-width: 1280;
+}
+
+
 header {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
+    z-index: 10;
 }
 
 header .header__wrap {
@@ -138,23 +154,9 @@ nav.spot ul li {
     box-sizing: border-box;
 }
 
-/* nav.spot ul li span{ */
-    /* display:inline; */
-    /* padding-left: 2px; */
-    /* font-size: 18px; */
-
-/* } */
-
-/* nav.spot ul img {
-    
-} */
-
 nav.spot ul li a {
     font-size: 18px;
-
 }
-
-
 
 nav.spot ul li:hover {
     background-color: #dbf0ff ;
@@ -168,7 +170,191 @@ nav.spot a{
 
 }
 
+.wrapper {
+    
+}
 
+section.main__page__visual {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+section.main__page__visual .swiper-container .swiper-wrapper .swiper-slide {
+    position: relative;
+}
+
+section.main__page__visual .swiper-container .swiper-wrapper .swiper-slide .img-box {
+    height: 876px;
+}
+
+section.main__page__visual .swiper-container .swiper-wrapper .swiper-slide .img-box img {
+    width: 100%;
+}
+
+section.main__page__visual .swiper-container .swiper-wrapper .swiper-slide .txt-box {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    text-align: center;
+}
+
+section.main__page__visual .swiper-container .swiper-pagination {
+    bottom: 87px;
+}
+
+section.main__page__visual .swiper-container .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    border: 3px solid #fff;
+    background-color: transparent;
+    opacity: 1;
+}
+
+section.main__page__visual .swiper-container .swiper-pagination-bullet-active {
+    background-color: #fff;
+}
+
+/* secton .main__info__icon .icon-wrapper{
+    position: relative;
+    text-align: center;
+} */
+
+section.main__info__icon {
+    padding: 80px 0 60px;
+    
+    
+}
+section.main__info__icon .icon-wrapper {
+    position:relative;
+    height: 137px;
+    width:1370px;
+    /* width: 330px; */
+    /* width:100%; */
+    background: #a5d9ff;
+    /* max-width: 1600px; */
+    text-align: center;
+}
+.apply-icon {
+    display: inline-block;
+    width: 25%;
+    height: 137px;
+    /* height: 100%; */
+    /* padding: 10px 0; */
+    position:relative;
+    box-sizing: border-box;
+    /* border-radius: 25px; */
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    
+    
+
+}
+
+.apply-icon a {
+    /* display: inline-block; */
+    /* position:absolute; */
+    width: 100px;
+    padding: 35px 0;
+    font-size: 21px;
+}
+
+.apply-icon:hover {
+    background:#d6eeff;
+}
+
+.apply-icon::after {
+    content: '';
+    height: 50%; 
+    width: 1px;
+    position: absolute;
+    right: 0;
+    top: 25%;
+    background-color: #73a5cb; 
+}
+
+.education-icon {
+    display: inline-block;
+    width: 25%;
+    height: 137px;
+    /* height: 100%; */
+    /* padding: 10px 0; */
+    position:relative;
+}
+
+.education-icon a {
+    /* position:absolute; */
+    width: 120px;
+    padding: 35px 0;
+    font-size: 21px;
+
+}
+
+.education-icon:after {
+    content: '';
+    height: 50%; 
+    width: 1px;
+    position: absolute;
+    right: 0;
+    top: 25%;
+    background-color: #73a5cb; 
+}
+
+.bmc-icon {
+    display: inline-block;
+    height: 137px;
+    /* height: 100%; */
+    width: 25%;
+    /* padding: 10px 0; */
+    position:relative;
+
+}
+
+.bmc-icon  a {
+    /* position:absolute; */
+    width: 100px;
+    padding: 35px 0;
+    font-size: 21px;
+
+}
+
+.bmc-icon :after {
+    content: '';
+    height: 50%; 
+    width: 1px;
+    position: absolute;
+    right: 0;
+    top: 25%;
+    background-color: #73a5cb; 
+}
+
+.community-icon {
+    display: inline-block;
+    width: 24%;
+    height: 100%;
+    /* padding: 10px 0; */
+    position:relative;
+
+}
+
+.community-icon a {
+    /* position:absolute; */
+    width: 120px;
+    padding: 35px 0;
+    font-size: 21px;
+
+}
+
+.community-icon:after {
+    content: '';
+    /* height: 50%; 
+    width: 1px;
+    position: absolute;
+    right: 0;
+    top: 25%; */
+    background-color: #73a5cb; 
+} 
 
 
 

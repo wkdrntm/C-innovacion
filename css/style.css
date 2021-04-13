@@ -222,21 +222,21 @@ section.main__page__visual .swiper-container .swiper-pagination-bullet-active {
 } */
 
 section.main__info__icon {
-    padding: 80px 0 60px;
+    margin: 80px 0 60px;
     
     
 }
 
 section.main__info__icon .icon-wrapper {
     height: 137px;
-    width:1370px;
+    width:100%;
     display:flex;
     text-align: center;
     font-size:21px;
 }
 
 .apply-icon {
-    width: 331px;
+    width: 25%;
     height: 137px;
     position:relative;
     box-sizing: border-box;
@@ -279,7 +279,7 @@ section.main__info__icon .icon-wrapper {
 
 .education-icon {
     display: inline-block;
-    width: 331px;
+    width: 25%;
     height: 137px;
     position:relative;
     background: #a5d9ff;
@@ -318,7 +318,7 @@ section.main__info__icon .icon-wrapper {
 .bmc-icon {
     display: inline-block;
     height: 137px;
-    width: 331px;
+    width: 25%;
     /* width: 25%; */
     position:relative;
     background: #a5d9ff;
@@ -357,7 +357,7 @@ section.main__info__icon .icon-wrapper {
 
 .community-icon {
     display: inline-block;
-    width: 331px;
+    width: 25%;
     height: 100%;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -383,5 +383,154 @@ section.main__info__icon .icon-wrapper {
     transition: all 0.3s;
 }
 
+section.main__info__koica {
+    color:#000;
+    margin-bottom: 60px;
+}
+
+section.main__info__koica .koica-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 288px;
+    font-size:21px;
+}
+.koica-wrapper .info-peru1 {
+    display: inline-block;
+    width:50%;
+
+    /* margin-right: 20px; */
+}
+
+.koica-wrapper .info-peru1 p {
+    padding:20px;
+    word-break: keep-all;
+}
+
+.koica-wrapper .info-peru2 {
+    display: inline-block;
+    /* background: #cc9900; */
+    width:50%;
+    height:288px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    overflow: hidden;    
+}
 
 
+/* .koica-wrapper .info-peru2 a {
+    display: inline-block;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+} */
+
+section .main__info__con__inha {
+    margin-bottom: 60px;
+}
+
+section .main__info__con__inha .con-inha-wrapper {
+    display: flex;
+    align-items: center;
+    /* justify-content:space-around ; */
+    align-content: center;
+    margin-bottom: 60px;
+}
+
+.consitech {
+    /* display: flex; */
+    /* float: left; */
+    display: inline-block;
+
+    border: 1px solid #000;
+    width:49%;
+    height:312px;
+    border-radius: 25px;
+    /* margin-left: 5px; */
+    /* position: relative; */
+
+}
+
+.consitech-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+
+.consitech-img {
+    display: inline-block;
+    padding:60px;
+    /* width: 50%; */
+    /* position:absolute; */
+    /* left:20px; */
+    /* top:50%; */
+    /* transform: translateY(-50%); */
+
+}
+
+.consitech-txt {
+    display: inline-block;
+}
+
+.consitech-txt h2 {
+    color:#383838;
+    font-size: 32px;
+}
+.consitech p {
+    padding: 20px;
+    word-break: keep-all;
+    color:#6c6c6c;
+    font-size: 21px;
+}
+
+.inha {
+    display: inline-block;
+    /* float: right; */
+    border: 1px solid #000;
+    width:50%;
+    height:312px;
+    border-radius: 25px;
+    /* overflow: hidden; */
+    /* margin-left: 5px; */
+    /* position: relative; */
+}
+
+.inha-wrapper {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    /* display: inline-block; */
+    
+}
+
+.inha-img {
+    display: inline-block;
+    padding:60px;
+    /* position:absolute;
+    right:400px;
+    top:50%;
+    transform: translateY(-50%); */
+    /* paddidng:40px; */
+}
+
+.inha-txt {
+    display: inline-block;
+    /* width:50%; */
+    /* padding-left: 50%; */
+    /* padding-top:10%; */
+    /* padding:30%; */
+    /* align-items: center; */
+    /* vertical-align: middle; */
+}
+
+.inha-txt h2 {
+    color:#383838;
+    font-size: 32px;
+}
+.inha p {
+    /* padding: 20px; */
+    word-break: keep-all;
+    color:#6c6c6c;
+    font-size: 21px;
+}

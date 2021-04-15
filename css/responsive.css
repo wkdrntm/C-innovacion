@@ -1,0 +1,154 @@
+@media (max-width:1550px){
+
+    .menu-item {
+       margin-left: 25px;
+   }
+}
+
+
+@media (max-width:1450px){
+
+     .menu-item {
+        margin-left: 20px;
+    }
+
+
+    .menu-item > a {
+    
+        font-size:22px;
+        padding: 5px 0 28px;
+        margin-bottom: 7px;
+    }
+
+    a.on~ .menu-sub {
+        font-size: 18px;
+    }
+
+
+    .menu-sub li a:hover:before {
+        content: '▶  ';
+        font-size: 10px;
+        line-height: -20px;
+        position:absolute;
+    
+        left:5px;
+    }
+}
+
+@media (max-width:1300px){
+   
+    .menu-item {
+        margin-left: 8px;
+    }
+
+
+    .menu-item > a {
+        font-size:18px;
+        padding: 5px 0 32px;
+        margin-bottom: 7px;
+
+    }
+
+    a.on~ .menu-sub {
+        font-size: 15px;
+    }
+
+}
+
+
+
+@media (max-width: 1100px) {
+    .mobile {
+        display: block;
+    }
+   
+    header .header__wrap h1.logo {
+        top: 50%;
+        transform: translateY(-50%);
+        left: 20px;
+        
+    }
+    
+    header .header__wrap h1.logo a {
+        width: 146px;
+        height: 27px;
+      
+        background: url("../images/logo@0.5x.png") no-repeat center/cover;
+    }
+
+    header .header__wrap .mobile-btn {
+        position: absolute;
+        background: url("../images/ic_drawer@3x.png") no-repeat center/cover;
+        width: 24px;
+        height: 24px;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    header .header__wrap {
+        height: 100px;
+    }
+    header .header__wrap nav.gnb {
+        padding-left: 0;
+        display: none;
+    }
+    header .header__wrap .spot {
+        display: none;
+    }
+
+    section.main__info__icon .icon-wrapper {
+        font-size: 16px;
+    }
+    
+    section.main__info__icon {
+        margin: 40px 0 30px;
+    }
+
+    section.main__info__koica {
+        margin-bottom: 30px;
+    }
+
+    section.main__info__koica h2 {
+        font-size: 18px;
+    }
+
+    section.main__info__koica a {
+        font-size: 16px;
+    }
+
+    .consitech-img {
+        padding: 30px;
+    }
+
+    .con-inha-wrapper h2 {
+        font-size: 18px;
+    }
+    
+    .con-inha-wrapper p {
+        font-size: 14px;
+    
+    }
+
+    .inha-img {
+        padding: 30px;
+    }
+
+    .gcc {
+        padding: 30px;
+    }
+
+    .n15 {
+        padding: 30px;
+    }
+
+    .main__info__gcc__n15 h2 {
+        font-size: 18px ;
+    }
+
+
+    .main__info__gcc__n15 p {
+        font-size: 14px ;
+    }
+
+    
+}

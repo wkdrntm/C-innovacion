@@ -71,27 +71,13 @@ nav.mobile-menu .mobile-menu-wrap ul.depth1 a.depth1-txt {
     color: #121517;
 }
 
-nav.mobile-menu .mobile-menu-wrap ul.depth1 a.depth1-txt.toggle {
-    
-    /* position: absolute;
-    right: 30px;
-    top: 10px;
-    width: 24px;
-    height: 24px; */
-    /* transition: all .3s; */
+/* nav.mobile-menu .mobile-menu-wrap ul.depth1 a.depth1-txt.toggle {
     background: url("../images/drop.png") no-repeat center right 24px/24px 24px;
 }
 
 nav.mobile-menu .mobile-menu-wrap ul.depth1 a.depth1-txt.toggle.on {
-    /* position: absolute;
-    right: 80px;
-    top: 16px;
-    width: 150px;
-    height: 24px; */
-    
-  
     background: url("../images/up.png") no-repeat center right 24px/24px 24px;
-}
+} */
 
 nav.mobile-menu .mobile-menu-wrap ul.depth1 a.depth1-txt.on~ul.depth2 {
     display: block;
@@ -161,35 +147,16 @@ header .header__wrap .logo {
 }
 
 header .header__wrap .logo a {
-    /* header .header__wrap h1.logo a { */
     width: 291px;
     height: 53px;
-    /* z-index: 200; */
-   
     background: url("../images/logo.png") no-repeat center/cover;
 }
-
-/* header .header__wrap h1.logo {
-    position: absolute;
-    left: 45px;
-    top: 0;
-    z-index: 100;
-}
-
-header .header__wrap h1.logo a {
-    width: 241px;
-    height: 219px;
-    background: url("../img/img_logo.png") no-repeat center/cover;
-} */
-
-
 
 nav.gnb a {
     color:#fff;
 }
 
 .main-menu {
-    /* height: 200px; */
     text-align: center;
     padding-left: 400px;
 
@@ -199,29 +166,21 @@ nav.gnb a {
     margin-left: 30px;
     margin-top: 75px; 
     display:inline-block;
-    /* display: block; */
 
     position: relative;
     white-space: nowrap;
-    /* width:10%; */
 }
 
 .menu-item > a {
-    
-    /* display: inline-block; */
-    display: block;
 
+    display: block;
     font-size:24px;
-    /* width:100%; */
     padding: 5px 5px 25px;
-    /* line-height: 20px; */
     margin-bottom: 7px;
 }
 
 .menu-item > a.on {
     color:#ffe800;
-    
-    /* justify-content: center;  */
     text-align: center;
     margin-bottom: 7px;
 }
@@ -236,7 +195,6 @@ nav.gnb a {
     
     width:100%;
     left:0;
-    /* clear: both; */
     z-index: 10;
 }
 
@@ -250,15 +208,12 @@ nav.gnb a {
 a.on~ .menu-sub {
     
     background: #0c64d2;
-    /* white-space: nowrap; */
     opacity: 1;    
     font-size: 20px;
     pointer-events: auto;
     transition: all, .3s;
     position:absolute;
     width:100%;
-    /* padding-top: 10px; */
-    /* width:120px; */
 }
 
 .menu-sub li {
@@ -332,7 +287,6 @@ section.main__page__visual .swiper-container .swiper-wrapper .swiper-slide {
 }
 
 section.main__page__visual .swiper-container .swiper-wrapper .swiper-slide .img-box {
-    /* height: 876px; */
 }
 
 section.main__page__visual .swiper-container .swiper-wrapper .swiper-slide .img-box img {
@@ -363,11 +317,6 @@ section.main__page__visual .swiper-container .swiper-pagination-bullet {
 section.main__page__visual .swiper-container .swiper-pagination-bullet-active {
     background-color: #fff;
 }
-
-/* secton .main__info__icon .icon-wrapper{
-    position: relative;
-    text-align: center;
-} */
 
 section.main__info__icon {
     margin: 80px 0 60px;
@@ -439,7 +388,6 @@ section.main__info__icon .icon-wrapper {
     display:inline-block;
     width: 100%;
     transition: all 0.3s;
-
 }
 
 .education-icon:hover {
@@ -465,21 +413,18 @@ section.main__info__icon .icon-wrapper {
     display: inline-block;
     height: 137px;
     width: 25%;
-    /* width: 25%; */
     position:relative;
     background: #a5d9ff;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: all 0.3s;
-
 }
 
 .bmc-icon a {
     display:inline-block;
     width: 100%;
     transition: all 0.3s;
-
 }
 
 .bmc-icon:hover {
@@ -530,7 +475,6 @@ section.main__info__icon .icon-wrapper {
 }
 
 section.main__info__koica {
-    /* color:#000; */
     margin-bottom: 60px;
 }
 
@@ -544,15 +488,11 @@ section.main__info__koica .koica-wrapper {
 .koica-wrapper .info-peru1 {
     display: inline-block;
     width:50%;
-
-    /* margin-right: 20px; */
 }
 
 .koica-wrapper .info-peru1 h2 {
-    /* font-size: 32px; */
     color:#383838;
     padding:20px;
-
 }
 
 .koica-wrapper .info-peru1 p {
@@ -563,14 +503,11 @@ section.main__info__koica .koica-wrapper {
 
 .koica-wrapper .info-peru2 {
     display: inline-block;
-    /* background: #cc9900; */
     width:50%;
     height:288px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     overflow: hidden;    
-
-    /* transition:opacity 0.5s; */
 }
 
 .koica-wrapper .info-peru2 a {
@@ -749,7 +686,7 @@ section.main__page__academy__info {
 section.main__page__academy__info .ai {
 
     position:absolute;
-    left:160px;
+    left:7%;
     top: 20px;
     font-size: 32px;
 }
@@ -851,23 +788,17 @@ section.main__info__board {
 }
 
 section.main__info__board .board__list__wrap {
-    /* font-size: 21px; */
     display: flex;
-    align-items: center;
 }
 
 .list__box.l1 {
     display: inline-block;
     width: 40%;
-    /* padding-left: 130px; */
-
 }
 
 .list__box.l2 {
     display: inline-block;
-    /* vertical-align: top; */
     width: 49%;
-    /* padding: 0 50px 0 30px; */
     padding-left: 130px;
     border-left:1px solid #949494;
 }
@@ -876,6 +807,7 @@ section.main__info__board .board__list__wrap {
     color: #414042;
     font-size: 32px;
     margin-bottom: 14px;
+    padding-left: 20px;
 }
 
 .list__box.l2 .board-tit {
@@ -888,10 +820,13 @@ section.main__info__board .board__list__wrap {
 .board-con {
     padding:20px;
 
+
 }
 .board-con ul li a {
     display: block;
     position: relative;
+    padding-right: 65px;    /* text-overflow: ellipsis 사용하기 위함 */
+   
 }
 
 .board-con ul li a:hover .date-txt,
@@ -903,88 +838,106 @@ section.main__info__board .board__list__wrap {
 
 .board-con ul li a .subject-txt {
     text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 98%;
     white-space: nowrap;
     word-wrap: normal;
     width: 100%;
-    max-width: 100%;
-    overflow: hidden;
     position: relative;
     font-size: 21px;
     line-height: 40px;
     width: auto;
-    padding-right: 20px;
-    display: inline-block;
-    vertical-align: middle;
-    color: #3d3d3d;
-
+    padding-right: 25px;
+    display: block;
+    color: #6c6c6c;
 }
 
 .board-con ul li a .subject-txt.system:after {
     content: '▶';
     position: absolute;
     top: 2px;
-    /* transform: translateY(-50%); */
     width: 2px;
     height: 2px;
-    color:#000;
+    color:#9a9a9a;
+    margin-left: 10px;
+}
+
+.board-con ul li a .subject-txt.new:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .board-con ul li a .date-txt {
     display: inline-block;
     vertical-align: middle;
     position: absolute;
-    right: 0;
+    right: -20px;
     top: 50%;
     transform: translateY(-50%);
     color: #6c6c6c;
     font-size: 21px;
+    /* margin-left: 10px; */
 }
 
 .tab_content {
     text-align:left;
-    /* font-size:0; */
+    position: relative;
 }
 
-input[type="radio"] {display:none;} /* input을 안보이게 처리 */
+/* input을 안보이게 처리  */
+input[type="radio"] {display:none;} 
 
+
+
+ /* 버튼 공통 속성 */
 input[type="radio"] + label {
     display:inline-block;
     padding:3px 20px 0;
     margin-bottom: 14px;
     background:#f0f0f0;
     color:#999;
-    font-size:32px;cursor:pointer;} /* 버튼 공통 속성 */
+    font-size:32px;cursor:pointer;}
 
+/* 선택된 버튼속성 */
 input[type="radio"]:checked + label {
-    background:#999;
-    color:#000;} /* 선택된 버튼속성 */
+    background:#383838;
+    color:#ffffff;
+    position: relative;
+} 
 
+input[type="radio"]:checked + label::after {
+    content: '';
+    position: absolute;
+    left:50%;
+    top:40px;
+    transform: translateX(-50%);
+    width: 0;
+    height:0;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #383838 transparent transparent transparent;
+}
+
+
+/* 컨텐츠박스 공통 속성 */
 .board-con.con1, .con2 {
     
     display:none;
     text-align:left;
     padding:20px;
     box-sizing:border-box;
-} /* 컨텐츠박스 공통 속성 */
+} 
 
-input[id="tab01"]:checked ~ .con1 {display:block;} /* 인풋에 체크가 해당 요소보이게 설정 */
+/* 인풋에 체크가 해당 요소보이게 설정 */
+input[id="tab01"]:checked ~ .con1 {display:block;} 
 input[id="tab02"]:checked ~ .con2 {display:block;}
-
-
-
-
-
-
-
-
-
-
-
 
 section.main__page__photo__zone {
     padding: 38px 0 24px;
     margin: 75px auto;
-    /* background: #149bff; */
     max-width: 1600px;
     position: relative;
 
@@ -993,7 +946,7 @@ section.main__page__photo__zone {
 section.main__page__photo__zone .ai {
 
     position:absolute;
-    left:160px;
+    left:7%;
     top: -25px;
     color:#383838;
     font-size: 32px;

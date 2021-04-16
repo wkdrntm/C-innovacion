@@ -53,6 +53,15 @@
         font-size: 15px;
     }
 
+    /* .board-con ul li a .subject-txt,
+    .board-con ul li a .date-txt.date-txt {
+    font-size: 18px;
+    }
+
+    .list__box.l2 {
+       padding-left: 40px;
+    } */
+
 }
 
 
@@ -150,5 +159,26 @@
         font-size: 14px ;
     }
 
+
+
+    .board-con ul li a .subject-txt,
+    .board-con ul li a .date-txt.date-txt {
+    font-size: 15px;
+    }
+
+    .list__box.l2 {
+       padding-left: 40px;
+    }
+
+    .list__box.l1 .board-tit,
+    .list__box.l2 label {
+        font-size: 18px;
+        
+    }
+
+    input[type="radio"]:checked + label::after {
+        
+        top:20px;
+    }
     
 }

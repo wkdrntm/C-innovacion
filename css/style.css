@@ -1,5 +1,5 @@
-/* html { font-size: 20px;}
-body { font-size: 1rem;} */
+html { font-size: 20px;}
+body { font-size: 1rem;}
 
 
 .inner {
@@ -325,19 +325,22 @@ section.main__info__icon {
 section.main__info__icon .icon-wrapper {
     height: 137px;
     width:100%;
-    display:flex;
-    text-align: center;
     font-size:21px;
+
+    display:flex;
+    /* text-align: center; */
     /* align-items: center; */
+    /* vertical-align: middle; */
     /* justify-content: center; */
     /* position: relative; */
+    /* justify-content: space-around; */
+
 }
 
 .apply-icon {
     width: 25%;
     height: 137px;
     position:relative;
-    box-sizing: border-box;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     background: #a5d9ff;
@@ -345,29 +348,14 @@ section.main__info__icon .icon-wrapper {
     align-items: center;
     justify-content: center;
     transition: all 0.3s;
-    /* text-align: center; */
-    /* position: relative; */
+
 }
 
-
-.apply-icon .apply_icon1 {
-    display: inline-block;
-    width: 100%;
+.apply-icon div > a {
+    padding-left: 10px;
     transition: all 0.3s;
+
 }
-
-.apply-icon .apply_icon2 {
-    display: none;
-}
-
-/* .apply-icon a::after {
-    content: 'Apply';
-    position: absolute;
-    top:50%;
-    transform:translateY(-50%);
-    left:70%;
-
-} */
 
 .apply-icon:hover {
     background:#d6eeff;
@@ -377,6 +365,15 @@ section.main__info__icon .icon-wrapper {
 .apply-icon a:hover {
     font-size: 28px;
     color:#cc9900;
+}
+
+.apply-icon:hover {
+    background:#d6eeff;
+}
+
+.apply-icon:hover a {
+    color:#cc9900;
+    font-size:28px;
 }
 
 .apply-icon::after {
@@ -391,32 +388,27 @@ section.main__info__icon .icon-wrapper {
 }
 
 .education-icon {
-    display: inline-block;
+    /* display: inline-block; */
     width: 25%;
     height: 137px;
     position:relative;
     background: #a5d9ff;
     display: flex;
     align-items: center;
-    justify-content: center;
-    transition: all 0.3s;
+    justify-content:center;
+    /* transition: all 0.3s; */
 }
 
-.education-icon .education_icon1 {
-    display:inline-block;
-    width: 100%;
+.education-icon div > a {
+    padding: 10px;
     transition: all 0.3s;
-}
-
-.education-icon .education_icon2 {
-    display:none;
 }
 
 .education-icon:hover {
     background:#d6eeff;
 }
 
-.education-icon a:hover {
+.education-icon:hover a {
     color:#cc9900;
     font-size:28px;
 }
@@ -443,23 +435,18 @@ section.main__info__icon .icon-wrapper {
     transition: all 0.3s;
 }
 
-.bmc-icon .bmc_icon1 {
-    display:inline-block;
-    width: 100%;
+.bmc-icon div > a {
+    padding-left: 10px;
     transition: all 0.3s;
-}
-
-.bmc-icon .bmc_icon2 {
-    display: none;
 }
 
 .bmc-icon:hover {
     background:#d6eeff;
 }
 
-.bmc-icon a:hover {
-    font-size: 28px;
+.bmc-icon:hover a {
     color:#cc9900;
+    font-size:28px;
 }
 
 .bmc-icon :after {
@@ -472,10 +459,10 @@ section.main__info__icon .icon-wrapper {
     background-color: #73a5cb; 
 }
 
-.community-icon {
-    display: inline-block;
+/* .community-icon {
     width: 25%;
     height: 100%;
+    position: relative;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     background: #a5d9ff;
@@ -483,26 +470,41 @@ section.main__info__icon .icon-wrapper {
     align-items: center;
     justify-content: center;
     transition: all 0.3s;
+} */
+
+.community-icon {
+    display: inline-block;
+    height: 137px;
+    width: 25%;
+    position:relative;
+    background: #a5d9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+.community-icon div > a {
+    padding-left: 10px;
+    transition: all 0.3s;
 }
 
 .community-icon:hover {
     background: #d6eeff;
 }
 
-.community-icon a:hover {
-    font-size: 28px;
+.community-icon:hover a {
     color:#cc9900;
+    font-size:28px;
 }
 
-.community-icon .community_icon1 {
+/* .community-icon div > a {
     display: inline-block;
     width: 100%;
     transition: all 0.3s;
-}
+} */
 
-.community-icon .community_icon2 {
-    display: none;
-}
+
 
 section.main__info__koica {
     margin-bottom: 60px;
@@ -514,10 +516,14 @@ section.main__info__koica .koica-wrapper {
     justify-content: center;
     height: 288px;
     font-size:21px;
+
+    /* position: relative; */
+    /* padding-top: 100%; */
+    /* overflow: hidden; */
 }
 .koica-wrapper .info-peru1 {
     display: inline-block;
-    width:50%;
+    max-width:50%;
 }
 
 .koica-wrapper .info-peru1 h2 {
@@ -532,9 +538,9 @@ section.main__info__koica .koica-wrapper {
 }
 
 .koica-wrapper .info-peru2 {
-    display: inline-block;
-    width:50%;
-    height:288px;
+    
+    max-width:80%;
+    height: 288px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     overflow: hidden;    
@@ -549,6 +555,7 @@ section.main__info__koica .koica-wrapper {
 .koica-wrapper .info-peru2 a:hover {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
+
 
 section.main__info__con__inha {
     padding-bottom: 38px;

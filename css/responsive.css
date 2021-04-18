@@ -1,8 +1,80 @@
+
+@media (min-width:500px){
+    .apply-icon > a {
+        /* 91 102 */
+        width: 4.55rem;
+        height: 5.1rem;
+        background: url("../images/apply_icon.png") no-repeat center/cover;
+    }
+
+    .education-icon > a {
+        /* 90 95 */
+        width: 4.5rem;
+        height: 4.75rem;
+        background: url("../images/education_icon.png") no-repeat center/cover;
+    }
+
+    /* .education-icon div > a {
+        position: absolute;
+    } */
+
+    .bmc-icon > a {
+        /* 73 93 */
+        width: 3.65rem;
+        height: 4.65rem;
+        background: url("../images/bmc_icon.png") no-repeat center/cover;
+    }
+
+    .community-icon > a {
+        /* 73 92 */
+        width: 3.65rem;
+        height: 4.6rem;
+        background: url("../images/community_icon.png") no-repeat center/cover;
+    }
+
+
+
+
+
+    .consitech-img a {
+        width: 8.5rem;
+        height: 8.5rem;
+        background: url("../images/consitech.png") no-repeat center/cover;
+
+    }
+
+    .inha-img a {
+        width: 8.5rem;
+        height: 8.5rem;
+        background: url("../images/inha_univ.png") no-repeat center/cover;
+
+    }
+
+    .gcc-wrapper a {
+        width: 8.5rem;
+        height: 8.5rem;
+        background: url("../images/gccei.png") no-repeat center/cover;
+
+    }
+
+    .n15-wrapper a {
+        width: 8.5rem;
+        height: 8.5rem;
+        background: url("../images/n15.png") no-repeat center/cover;
+
+    }
+}
+
+
+
+
 @media (max-width:1550px) {
 
     .menu-item {
         margin-left: 25px;
     }
+
+
 }
 
 @media (max-width:1450px) {
@@ -61,6 +133,10 @@
 }
 
 @media (max-width: 1100px) {
+
+    /* html { font-size: 20px;}
+    body { font-size: 1rem;} */
+
     .mobile {
         display: block;
     }
@@ -73,10 +149,15 @@
     }
 
     header .header__wrap h1.logo a {
-        width: 146px;
-        height: 27px;
+        /* width: 146px;
+        height: 27px; */
 
-        background: url("../images/logo@0.5x.png") no-repeat center/cover;
+        width: 7.26rem;
+        height: 1.325rem;
+        /* 581
+        106 */
+
+        background: url("../images/logo@2x.png") no-repeat center/cover;
     }
 
     header .header__wrap .mobile-btn {
@@ -88,6 +169,7 @@
         top: 50%;
         transform: translateY(-50%);
     }
+
     header .header__wrap {
         height: 50px;
     }
@@ -97,79 +179,6 @@
     }
     header .header__wrap .spot {
         display: none;
-    }
-
-    section.main__info__icon .icon-wrapper {
-        font-size: 16px;
-    }
-
-    section.main__info__icon {
-        margin: 40px 0 30px;
-    }
-
-    section.main__info__koica {
-        margin-bottom: 30px;
-    }
-
-    section.main__info__koica h2 {
-        font-size: 18px;
-    }
-
-    section.main__info__koica a {
-        font-size: 16px;
-    }
-
-    .consitech-img {
-        padding: 30px;
-    }
-
-    .con-inha-wrapper h2 {
-        font-size: 18px;
-    }
-
-    .con-inha-wrapper p {
-        font-size: 14px;
-
-    }
-
-    .inha-img {
-        padding: 30px;
-    }
-
-    .gcc {
-        padding: 30px;
-    }
-
-    .n15 {
-        padding: 30px;
-    }
-
-    .main__info__gcc__n15 h2 {
-        font-size: 18px;
-    }
-
-    .main__info__gcc__n15 p {
-        font-size: 14px;
-    }
-
-    .board-con ul li a .date-txt.date-txt,
-    .board-con ul li a .subject-txt {
-        font-size: 15px;
-    }
-
-    .list__box.l2 {
-        padding-left: 40px;
-    }
-
-    .list__box.l1 .board-tit,
-    .list__box.l2 label {
-        font-size: 18px;
-
-    }
-
-    input[type="radio"]:checked + label::after {
-
-        top: 20px;
     }
 
     section.main__page__visual .swiper-container .swiper-pagination {
@@ -188,24 +197,54 @@
         background-color: #fff;
     }
 
-    .apply-icon {
-        height: 90px;
+    .icon-wrapper {
+        /* height: 50px; */
+        /* height: 90px; */
+
     }
 
-    .apply-icon .apply_icon1 {
+    .icon-wrapper a {
+        font-size: 14px;
+        /* height: 90px */
+    }
+
+    .icon-wrapper a:hover {
+        font-size: 16px;
+    }
+
+    .apply-icon {
+        /* height: 90px;
+
+        width: 25%; */
+        /* height: 137px; */
+        /* position:relative;
+        background: #a5d9ff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s; */
+    }
+
+    /* .apply-icon .apply_icon1 {
         display: none;
     }
 
     .apply-icon .apply_icon2 {
-        display: inline-block;
-    }
+        position: absolute;
 
-    .apply-icon a:hover {
+        width:2.275rem;
+        height: 2.55rem;
+        display: block;
+        transition: all 0.3s;
+
+    } */
+
+    /* .apply-icon a:hover {
         font-size: 18px;
-    }
+    } */
 
     .education-icon {
-        height: 90px;
+        /* height: 90px; */
     }
 
     .education-icon .education_icon1 {
@@ -213,15 +252,14 @@
     }
 
     .education-icon .education_icon2 {
-        display: inline-block;
-    }
 
-    .education-icon a:hover {
-        font-size: 18px;
+        display: block;
+        transition: all 0.3s;
+
     }
 
     .bmc-icon {
-        height: 90px;
+        /* height: 90px; */
     }
 
     .bmc-icon .bmc_icon1 {
@@ -229,15 +267,13 @@
     }
 
     .bmc-icon .bmc_icon2 {
-        display: inline-block;
-    }
-
-    .bmc-icon a:hover {
-        font-size: 18px;
+        display: block;
+        transition: all 0.3s;
     }
 
     .community-icon {
-        height: 90px;
+        /* height: 90px; */
+        /* text-align: center; */
     }
 
     .community-icon .community_icon1 {
@@ -246,10 +282,299 @@
 
     .community-icon .community_icon2 {
         display: inline-block;
+        transition: all 0.3s;
     }
 
-    .community-icon a:hover {
+    section.main__info__icon {
+        margin: 30px 0 0px;
+    }
+
+    section.main__info__koica {
+        /* padding: 10px 0 5px; */
+        margin: 0 auto;
+
+    }
+
+    section.main__info__koica .koica-wrapper {
+        text-align: center;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+
+    }
+
+    .info-peru1 {
+        display: inline-block;
+        text-align: left;
+        padding: 0 10px 10px;
+    }
+
+    .info-peru1 a {
+        font-size: 16px;
+    }
+
+    .info-peru1 h2 {
         font-size: 18px;
+    }
+
+    .info-peru1 p {
+        padding: 1px;
+    }
+
+    .info-peru1 {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-height: 100%;
+    }
+
+    .info-peru2 {
+        display: inline-block;
+        /* border-radius: 25px; */
+        padding-bottom: 40px;
+        height: 300px;
+
+    }
+
+    .info-peru2 img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 25px;
+    }
+
+    .main__info__con__inha {
+        margin-top: 0;
+    }
+
+    .con-inha-wrapper {
+        /* display: flex; */
+        flex-direction: column;
+
+    }
+
+    .consitech-img {
+        padding: 30px;
+    }
+
+    /* .consitech-img a {
+        display: none;
+    } */
+
+    /* .consitech-img a {
+        width: 4.25rem;
+        height: 4.25rem;
+        background: url("../images/consitech@2x.png") no-repeat center/cover;
+
+    } */
+
+    .consitech-wrapper {
+        margin: 0;
+        /* max-width: 100%; */
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .con-inha-wrapper h2 {
+        font-size: 18px;
+    }
+
+    .con-inha-wrapper p {
+        font-size: 14px;
+
+    }
+
+    .inha-img {
+        padding: 30px;
+    }
+
+    .inha-wrapper {
+        margin: 0;
+        width: 100%;
+        margin-bottom: -15px;
+
+    }
+
+    .gcc-n15-wrapper {
+        flex-direction: column;
+    }
+
+    .gcc-wrapper {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 20px;
+
+        /* text-align: center; */
+        /* align-items: center; */
+    }
+
+    .gcc {
+        padding: 30px;
+    }
+
+    .n15-wrapper {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .n15 {
+        padding:30px;
+    }
+
+    .main__info__gcc__n15 h2 {
+        font-size: 18px;
+    }
+
+    .main__info__gcc__n15 p {
+        font-size: 14px;
+    }
+
+    input[type="radio"]:checked + label::after {
+        top: 20px;
+    }
+
+    .board-con ul li a .date-txt.date-txt,
+    .board-con ul li a .subject-txt {
+        font-size: 15px;
+    }
+
+    .list__box.l2 {
+        padding-left: 40px;
+    }
+
+    .list__box.l1 .board-tit,
+    .list__box.l2 label {
+        font-size: 18px;
+
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .main__info__con__inha {
+        margin-top: -20px;
+    }
+
+    section.main__info__gcc__n15 {
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .apply-icon > a {
+        
+        width: 2.275rem;
+        height: 2.55rem;
+        background: url("../images/apply@2x.png") no-repeat center/cover;
+    }
+
+    .apply-icon div > a {
+        display: block;
+        word-break: keep-all;
+        padding: 0;
+        position:absolute;
+        left:50%;
+        transform: translateX(-50%);
+        top:100px;
+    }
+
+    /* .education-icon {
+        display: inline-block;
+    } */
+    .education-icon > a {
+        /* 180 190 */
+        width: 2.25rem;
+        height: 2.375rem;
+        background: url("../images/education@2x.png") no-repeat center/cover;
+    }
+
+    .education-icon div > a {
+        display: block;
+        word-break: keep-all;
+        padding: 0;
+        position:absolute;
+        left:50%;
+        transform: translateX(-50%);
+        top:100px;
+    }
+
+    .bmc-icon > a {
+        width:2.275rem;
+        height: 2.55rem;
+        background: url("../images/bmc@2x.png") no-repeat center/cover;
+    }
+
+    .bmc-icon div > a {
+        display: block;
+        word-break: keep-all;
+        padding: 0;
+        position:absolute;
+        left:50%;
+        transform: translateX(-50%);
+        top:100px;
+    }
+
+    .community-icon > a {
+        width:2.275rem;
+        height: 2.55rem;
+        background: url("../images/community@2x.png") no-repeat center/cover;
+    }
+
+    .community-icon div > a {
+        display: block;
+        word-break: keep-all;
+        padding: 0;
+        position:absolute;
+        left:50%;
+        transform: translateX(-50%);
+        top:100px;
+    }
+
+
+
+
+
+
+    .main__info__con__inha {
+        margin-top: -60px;
+    }
+
+    .consitech-img a {
+        width: 4.25rem;
+        height: 4.25rem;
+        background: url("../images/consitech@2x.png") no-repeat center/cover;
+
+    }
+
+    .inha-img a {
+        width: 4.25rem;
+        height: 4.25rem;
+        background: url("../images/inha_univ@2x.png") no-repeat center/cover;
+
+    }
+
+    .gcc-wrapper a {
+        width: 4.25rem;
+        height: 4.25rem;
+        background: url("../images/gccei@2x.png") no-repeat center/cover;
+
+    }
+
+    .n15-wrapper a {
+        width: 4.25rem;
+        height: 4.25rem;
+        background: url("../images/n15@2x.png") no-repeat center/cover;
+
+    }
+
+}
+
+
+@media (max-width: 500px) {
+    .main__info__con__inha {
+        margin-top: -140px;
     }
 
 }

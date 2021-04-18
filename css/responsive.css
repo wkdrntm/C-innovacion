@@ -121,6 +121,16 @@
         font-size: 15px;
     }
 
+
+    .icon-wrapper a {
+        font-size: 20px;
+    }
+
+    .icon-wrapper a:hover {
+        font-size: 25px;
+    }
+
+
     /* .board-con ul li a .subject-txt,
     .board-con ul li a .date-txt.date-txt {
     font-size: 18px;
@@ -197,102 +207,21 @@
         background-color: #fff;
     }
 
-    .icon-wrapper {
-        /* height: 50px; */
-        /* height: 90px; */
-
+    section.main__info__icon {
+        margin: 30px 0 0px;
     }
 
     .icon-wrapper a {
         font-size: 14px;
-        /* height: 90px */
     }
+    
 
     .icon-wrapper a:hover {
         font-size: 16px;
     }
 
-    .apply-icon {
-        /* height: 90px;
-
-        width: 25%; */
-        /* height: 137px; */
-        /* position:relative;
-        background: #a5d9ff;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: all 0.3s; */
-    }
-
-    /* .apply-icon .apply_icon1 {
-        display: none;
-    }
-
-    .apply-icon .apply_icon2 {
-        position: absolute;
-
-        width:2.275rem;
-        height: 2.55rem;
-        display: block;
-        transition: all 0.3s;
-
-    } */
-
-    /* .apply-icon a:hover {
-        font-size: 18px;
-    } */
-
-    .education-icon {
-        /* height: 90px; */
-    }
-
-    .education-icon .education_icon1 {
-        display: none;
-    }
-
-    .education-icon .education_icon2 {
-
-        display: block;
-        transition: all 0.3s;
-
-    }
-
-    .bmc-icon {
-        /* height: 90px; */
-    }
-
-    .bmc-icon .bmc_icon1 {
-        display: none;
-    }
-
-    .bmc-icon .bmc_icon2 {
-        display: block;
-        transition: all 0.3s;
-    }
-
-    .community-icon {
-        /* height: 90px; */
-        /* text-align: center; */
-    }
-
-    .community-icon .community_icon1 {
-        display: none;
-    }
-
-    .community-icon .community_icon2 {
-        display: inline-block;
-        transition: all 0.3s;
-    }
-
-    section.main__info__icon {
-        margin: 30px 0 0px;
-    }
-
     section.main__info__koica {
-        /* padding: 10px 0 5px; */
         margin: 0 auto;
-
     }
 
     section.main__info__koica .koica-wrapper {
@@ -329,7 +258,6 @@
 
     .info-peru2 {
         display: inline-block;
-        /* border-radius: 25px; */
         padding-bottom: 40px;
         height: 300px;
 
@@ -346,29 +274,15 @@
     }
 
     .con-inha-wrapper {
-        /* display: flex; */
         flex-direction: column;
-
     }
 
     .consitech-img {
         padding: 30px;
     }
 
-    /* .consitech-img a {
-        display: none;
-    } */
-
-    /* .consitech-img a {
-        width: 4.25rem;
-        height: 4.25rem;
-        background: url("../images/consitech@2x.png") no-repeat center/cover;
-
-    } */
-
     .consitech-wrapper {
         margin: 0;
-        /* max-width: 100%; */
         width: 100%;
         margin-bottom: 20px;
     }
@@ -402,8 +316,6 @@
         width: 100%;
         margin-bottom: 20px;
 
-        /* text-align: center; */
-        /* align-items: center; */
     }
 
     .gcc {
@@ -459,9 +371,14 @@
     section.main__info__gcc__n15 {
         padding-bottom: 20px;
     }
+
 }
 
 @media (max-width: 700px) {
+
+    .icon-wrapper a {
+        font-size: 18px;
+    }
 
     .apply-icon > a {
         
@@ -477,12 +394,9 @@
         position:absolute;
         left:50%;
         transform: translateX(-50%);
-        top:100px;
+        top:90px;
     }
 
-    /* .education-icon {
-        display: inline-block;
-    } */
     .education-icon > a {
         /* 180 190 */
         width: 2.25rem;
@@ -497,12 +411,14 @@
         position:absolute;
         left:50%;
         transform: translateX(-50%);
-        top:100px;
+        top:90px;
     }
 
     .bmc-icon > a {
-        width:2.275rem;
-        height: 2.55rem;
+
+        /* 146 186 */
+        width: 1.825rem;
+        height: 2.325rem;
         background: url("../images/bmc@2x.png") no-repeat center/cover;
     }
 
@@ -513,12 +429,13 @@
         position:absolute;
         left:50%;
         transform: translateX(-50%);
-        top:100px;
+        top:90px;
     }
 
     .community-icon > a {
-        width:2.275rem;
-        height: 2.55rem;
+        /* 146 184 */
+        width: 1.825rem;
+        height: 2.3rem;
         background: url("../images/community@2x.png") no-repeat center/cover;
     }
 
@@ -529,13 +446,8 @@
         position:absolute;
         left:50%;
         transform: translateX(-50%);
-        top:100px;
+        top:90px;
     }
-
-
-
-
-
 
     .main__info__con__inha {
         margin-top: -60px;
@@ -571,10 +483,37 @@
 
 }
 
-
 @media (max-width: 500px) {
     .main__info__con__inha {
         margin-top: -140px;
     }
+  
+    .icon-wrapper a {
+        font-size: 14px;
+    }
 
+    .icon-wrapper a:hover {
+        font-size: 16px;
+    }
+
+    .icon-wrapper a:hover + div > a {
+        font-size:16px;
+    }
+
+    .apply-icon {
+        height: 85%;
+    }
+
+    .education-icon {
+        height: 85%;
+    }
+  
+    .bmc-icon {
+        height: 85%;
+    }
+
+    .community-icon {
+        height: 85%;
+    }
+  
 }

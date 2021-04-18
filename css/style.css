@@ -477,6 +477,8 @@ section.main__info__icon .icon-wrapper {
     height: 137px;
     width: 25%;
     position:relative;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
     background: #a5d9ff;
     display: flex;
     align-items: center;

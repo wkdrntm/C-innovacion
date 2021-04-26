@@ -50,7 +50,7 @@
     .gcc-wrapper a {
         width: 8.5rem;
         height: 8.5rem;
-        background: url("../images/gccei.png") no-repeat center/cover;
+        background: url("../images/main_gccei.png") no-repeat center/cover;
 
     }
 
@@ -126,14 +126,9 @@
         font-size: 25px;
     }
 
-    /* .board-con ul li a .subject-txt,
-    .board-con ul li a .date-txt.date-txt {
-    font-size: 18px;
+    .b_txt {
+        font-size: 18px;
     }
-
-    .list__box.l2 {
-       padding-left: 40px;
-    } */
 
 }
 
@@ -370,6 +365,25 @@
 
     }
 
+    .b_txt {
+        font-size: 16px;
+    }
+
+    .report {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .report .lf {
+        /* width: 50%; */
+        background: none;
+    }
+
+    .report .rf {
+        /* width: 100%; */
+
+    }
+
     /* ===============sub-page============ */
 
 }
@@ -382,6 +396,41 @@
 
     section.main__info__gcc__n15 {
         padding-bottom: 20px;
+    }
+
+    .b_txt {
+        font-size: 14px;
+    }
+
+    .box_line.one {
+        border-right: none;
+        padding: 0 20px;
+    }
+
+    .box_line.two {
+        padding: 0 20px;
+    }
+
+    .box_wrap .el.n2 {
+        top: 28%;
+    }
+
+   
+}
+
+@media (max-width: 750px) {
+
+    .box_wrap {
+        width: 70%;
+        /* font-size: 20px; */
+    }
+
+    .box_wrap .el.n2 {
+        top: 40%;
+    }
+
+    .report p {
+        padding: 18px;
     }
 
 }
@@ -482,7 +531,7 @@
     .gcc-wrapper a {
         width: 4.25rem;
         height: 4.25rem;
-        background: url("../images/gccei@2x.png") no-repeat center/cover;
+        background: url("../images/main_gccei@2x.png") no-repeat center/cover;
 
     }
 
@@ -495,6 +544,36 @@
 
     .ai span {
         font-size: 20px;
+    }
+
+    .pbox_wrap {
+        flex-direction: column;
+    }
+
+    .pbox {
+
+        padding: 5px;
+
+    }
+
+    .pbox a {
+        font-size: 13px;
+    }
+
+    .pbox img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .b_txt {
+        font-size: 13px;
+        max-width: 100%;
+    }
+
+    .box_line {
+        max-width: 100%;
+        padding: 0;
+        box-sizing: border-box;
     }
 
 }
@@ -578,12 +657,12 @@
     section.main__page__photo__zone .swiper-control a.prev-btn2 {
         color: #fff;
         left: 1px;
-        top: -10px;
+        top: -15px;
     }
 
     section.main__page__photo__zone .swiper-control a.next-btn2 {
         right: 1px;
-        top: -10px;
+        top: -15px;
     }
 
     input[type="radio"]:checked + label::after {
@@ -602,8 +681,24 @@
         margin-bottom: 10px;
         display: inline-block;
     }
-       .page__des p {
+    .page__des p {
         font-size: 15px;
+    }
+
+    .page__des h2 {
+        /* font-size: 25px; */
+    }
+
+    article.page__tit__info .page__des .mission {
+        width: 50%;
+    }
+
+    article.page__tit__info .page__des .vision {
+        width: 50%;
+    }
+
+    .above li {
+        font-size: 20px;
     }
 
     .sbox {
@@ -613,6 +708,176 @@
 
     article.page__tit__info .page__tit {
         margin-bottom: 10px;
+
     }
 
+    .pbox_wrap {
+        flex-direction: column;
+    }
+
+    .pbox {
+
+        padding: 20px;
+        box-sizing: border-box;
+
+    }
+
+    .pbox a {
+        font-size: 13px;
+    }
+
+    .pbox img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .out_box {
+        flex-direction: column;
+    }
+
+    .box_line {
+        width: 100%;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .b_txt {
+        font-size: 18px;
+        max-width: 100%;
+    }
+
+    .box_line.one {
+        /* border-right: solid 10px #00a8ff; */
+        border: none;
+        border: solid 10px #00a8ff;
+        padding: 0 20px;
+    }
+
+    .box_line.two {
+        border: none;
+        border: solid 10px #00a8ff;
+        border-top: none;
+        background-repeat: no-repeat;
+        padding: 0 20px;
+
+    }
+
+    article.paging ul li a {
+
+        width: 18px;
+        height: 18px;
+
+    }
+    article.paging ul li a.num {
+        font-size: 9px;
+        color: #495057;
+        margin: 0 -2px;
+    }
+    article.paging ul li a.num.current {
+        font-weight: 400;
+
+    }
+    .pbox {
+        padding: 0 5px;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .page__des.concytec h1 a {
+        font-size: 20px;
+
+    }
+
+    .box_wrap {
+        height: 400px;
+    }
+
+    .pz .swiper-control a.prev-btn2 {
+        color: #fff;
+        left: 1px;
+        top: -15px;
+    }
+
+    .pz .swiper-control a.next-btn2 {
+        right: 1px;
+        top: -15px;
+    }
+
+    .ourgoals {
+        flex-wrap: wrap;
+    }
+
+    .report p {
+        padding: 15px;
+    }
+
+    .gccei_vision_mission {
+        max-width: 100%;
+
+    }
+
+    .dot_box {
+        font-size: 15px;
+    }
+
+    .n15_txt_img {
+        padding: 0 10px;
+    }
+
+    .unalm_office {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .uni_office span {
+        font-size: 15px;
+    }
+
+    .dot {
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        margin-right: 5px;
+        margin-left: 5px;
+        transform: translateY(50%);
+
+        /* height: auto; */
+
+    }
+
+    .unmsm_codi_box p {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    li {
+        font-size: 18px;
+    }
+
+    .unt_img_group {
+        flex-direction: column;
+    }
+
+    .unsa_codi_box p {
+        padding: 10px 20px;
+
+    }
+
+    .unsa_codi_box2 p {
+        padding: 5px 20px;
+
+    }
+
+   
 }

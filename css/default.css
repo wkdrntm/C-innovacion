@@ -1,11 +1,15 @@
 @charset "utf-8";
-@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
-@font-face {
-    font-family: "Barlow";
+/* @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css); */
+
+  @font-face {
+    font-family: "BAHNSCHRIFT";
     src: url("../fonts/BAHNSCHRIFT.TTF") format("truetype");
-    /* font-weight: 400; */
     font-style:normal;
+
+ 
   }
+
+
 
 /* Reset */
  * {outline:0 !important;}
@@ -21,8 +25,8 @@ html, body{width:100%;}
 
 html{-webkit-touch-callout:none; -webkit-user-select:none; -webkit-tap-highlight-color:rgba(0, 0, 0, 0);}
 body{width:100%; background:#fff; min-width:320px; -webkit-text-size-adjust:none;word-wrap:break-word;word-break:break-all;}
-body,input,select,textarea,button {border:none;font-size:12px; 
-font-family:'BAHNSCHRIFT', sans-serif;color:#000;}
+body,input,select,textarea,button {border:none;font-size:13px; 
+font-family:'BAHNSCHRIFT'; color:666666;}
 ul,ol,li{list-style:none;}
 table{width:100%;border-spacing:0;border-collapse:collapse;}
 img,fieldset{border:0;}
@@ -33,12 +37,21 @@ hr{display:none;}
 main,header,section,nav,footer,aside,article,figure{display:block;}
 /* a{color:#000;text-decoration:none;} */
 a {
-  color:#000;
+  color:#383838;
   text-decoration: none;
   /* color: inherit; */
   display: inline-block;
   /* font-size: 25px; */
  }
+
+ b {
+  color:#383838;
+  font-family:'Bahnschrift', sans-serif;
+ }
+
+ /* span {
+   line-height: 50%;
+ } */
  
 /* Form */
 textarea { border:1px solid #dbdbdb;}

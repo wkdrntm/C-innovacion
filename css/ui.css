@@ -262,8 +262,9 @@ article.paging ul li a.num {
 }
 article.paging ul li a.num.current {
     font-weight: 700;
-    color: #ce0000;
-    border: 1px solid #bbbbbb;
+    color: #fff;
+    background: #00a8ff;
+    /* border: 1px solid #bbbbbb; */
 }
 article.paging ul li a.num.current:hover {
     text-decoration: none;

@@ -1466,21 +1466,20 @@ article.page__tit__info .page__des #img1 {
 
 
 
-div.refRoomTable table tbody tr td {
-    text-align: center;
-    font-size: 15px;
-    font-family: '나눔스퀘어_ac', sans-serif;
 
-}
+
 
 div.refRoomTable table th {
     background-color: #00a8ff;
-    padding: 12px 46px;
+    padding: 12px 10px;
     color: white;
 }
 
 div.refRoomTable table tbody tr td {
-    padding: 13px 50px;
+    padding: 13px 10px;
+    text-align: center;
+
+
 }
 
 div.refRoomTable table tbody tr {
@@ -1489,31 +1488,30 @@ div.refRoomTable table tbody tr {
 }
 
 div.refRoomTable table tbody tr:first-child {
-    padding: 13px 50px;
+    /* padding: 13px 150px; */
     border-top: 1px solid #cccccc;
 }
 
 div.refRoomTable table tbody tr:last-child {
-    padding: 13px 50px;
+    /* padding: 13px 50px; */
     border-bottom: 1px solid #cccccc;
 }
 
-div.refRoomTable table tbody tr td:nth-child(2) {
-    text-align: left;
-}
+
+/* ============================== */
 
 div.refRoomDoc table tbody tr td {
     text-align: center;
+    padding: 13px 10px;
+
+    table-layout: fixed;
 }
 
 div.refRoomDoc table th {
-    background-color: #6789b6;
-    padding: 12px 46px;
+    background-color: #00a8ff;
+    padding: 12px 20px;
     color: white;
-}
-
-div.refRoomDoc table tbody tr td {
-    padding: 13px 50px;
+    white-space: nowrap;
 }
 
 div.refRoomDoc table tbody tr {
@@ -1523,6 +1521,8 @@ div.refRoomDoc table tbody tr {
 
 div.refRoomDoc table tbody tr td:nth-child(2) {
     text-align: left;
+    white-space: nowrap;
+
 }
 
 div.refRoomDoc table tbody tr:nth-child(3) td {
@@ -1534,10 +1534,6 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 .pbox_wrap {
     display: flex;
     font-size: 15px;
-    /* max-width: 1300px;
-    height: 292px; */
-    /* margin:0 auto; */
-    /* text-align: center; */
 }
 
 .pbox {
@@ -1549,7 +1545,6 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 .pbox img {
     max-width: 100%;
     height: 292px;
-    /* height: auto; */
     object-fit: cover;
     overflow: hidden;
 }
@@ -1765,6 +1760,14 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
     transform: translateX(-50%);
 } 
 
+.a3 .n1 {
+    position:absolute;
+    width: 100%;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .a4 .n1 {
     position:absolute;
     width: 100%;
@@ -1784,7 +1787,15 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 .a6 .n1 {
     position:absolute;
     width: 100%;
-    top: 5%;
+    top: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.a7 .n1 {
+    position:absolute;
+    width: 100%;
+    top: 4%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -2086,9 +2097,9 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
     margin: 20px 30px 20px 10px;
 }
 
-.Manager_box1 p {
+/* .Manager_box1 p {
     padding-top: 15px;
-}
+} */
 
 .Manager_box2 {
     width: 325px;
@@ -2220,11 +2231,13 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 }
 
 .unsa_codi_box {
+    /* flex: 1 ; */
     background: #e4f2fc ;
     margin:10px;
     position: relative;
     color:#333333;
     width: 620px;
+    /* max-width: 100%; */
     height: 150px;
     display: flex;
     box-sizing: border-box;

@@ -866,7 +866,11 @@
     }
 
     li {
-        font-size: 18px;
+        font-size: 15px;
+    }
+
+    span {
+        font-size: 15px;
     }
 
     .unt_img_group {
@@ -881,6 +885,24 @@
     .unsa_codi_box2 p {
         padding: 5px 20px;
 
+    }
+
+    div.refRoomDoc table tbody tr td {
+       font-size: 15px;
+
+    }
+    
+    div.refRoomDoc table th {
+       font-size: 15px;
+    
+    }
+
+    div.refRoomTable table th {
+       font-size: 15px;
+    }
+    
+    div.refRoomTable table tbody tr td {
+       font-size: 15px;
     }
 
    

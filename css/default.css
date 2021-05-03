@@ -37,22 +37,21 @@ hr{display:none;}
 main,header,section,nav,footer,aside,article,figure{display:block;}
 /* a{color:#000;text-decoration:none;} */
 a {
-  /* color:#383838; */
+  color:#383838;
   text-decoration: none;
   /* color: inherit; */
   display: inline-block;
   /* font-size: 25px; */
  }
 
- /* b {
+ b {
   color:#383838;
-  font-family:'BAHNSCHRIFT', sans-serif;
+ }
+
+ /* br {
+   line-height: 50%;
  } */
 
- /* h2 {
-  color:#383838;
-  font-family:'BAHNSCHRIFT', sans-serif;
- } */
  
 /* Form */
 textarea { border:1px solid #dbdbdb;}

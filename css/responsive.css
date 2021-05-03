@@ -130,6 +130,14 @@
         font-size: 18px;
     }
 
+    .board-con ul li a .subject-txt {
+        font-size: 18px;
+    }
+
+    .board-con ul li a .date-txt {
+        font-size: 18px;
+    }
+
 }
 
 @media (max-width: 1100px) {
@@ -419,7 +427,6 @@
         top: 28%;
     }
 
-   
 }
 
 @media (max-width: 750px) {
@@ -579,6 +586,15 @@
         padding: 0;
         box-sizing: border-box;
     }
+
+    .page__des.business .par2 .chil1 {
+        font-size: 18px;
+    }
+
+    .page__des.business .par2 {
+        flex-direction: column;
+    }
+
 
 }
 
@@ -812,7 +828,7 @@
     }
 
     .report p {
-        padding: 15px;
+        padding: 10px;
     }
 
     .gccei_vision_mission {
@@ -888,22 +904,40 @@
     }
 
     div.refRoomDoc table tbody tr td {
-       font-size: 15px;
+        font-size: 15px;
 
     }
-    
+
     div.refRoomDoc table th {
-       font-size: 15px;
-    
+        font-size: 15px;
+
     }
 
     div.refRoomTable table th {
-       font-size: 15px;
-    }
-    
-    div.refRoomTable table tbody tr td {
-       font-size: 15px;
+        font-size: 15px;
     }
 
-   
+    div.refRoomTable table tbody tr td {
+        font-size: 15px;
+    }
+
+    section.main__page__photo__zone {
+        padding: 20px 0 24px;
+        margin: 40px auto;
+    }
+
+    .vol_sch_box {
+        flex-direction: column;
+    }
+
+    .vol_box {
+        width: 100%;
+
+    }
+
+    .sch_box {
+        width: 100%;
+
+    }
+
 }

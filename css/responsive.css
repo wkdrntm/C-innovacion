@@ -384,17 +384,13 @@
     .report {
         flex-direction: column;
         width: 100%;
+        justify-self: center;
     }
 
     .report .lf {
-        /* width: 50%; */
         background: none;
     }
 
-    .report .rf {
-        /* width: 100%; */
-
-    }
 
     /* ===============sub-page============ */
 
@@ -859,7 +855,7 @@
         height: 6px;
         margin-right: 5px;
         margin-left: 5px;
-        transform: translateY(50%);
+        transform: translateY(-30%);
 
         /* height: auto; */
 
@@ -940,4 +936,8 @@
 
     }
 
+
+    .core_pro {
+        flex-direction: column;
+    }
 }

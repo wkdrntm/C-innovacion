@@ -911,8 +911,6 @@ section.main__info__board .board__list__wrap {
     text-decoration: underline;
 }
 
-
-
 .board-con ul li a .subject-txt {
     text-overflow: ellipsis;
     overflow: hidden;
@@ -950,7 +948,7 @@ section.main__info__board .board__list__wrap {
     /* display: inline-block; */
     /* vertical-align: middle; */
     position: absolute;
-    right: 0px;
+    right: 0;
     top: 50%;
     transform: translateY(-50%);
     color: #6c6c6c;
@@ -1264,14 +1262,13 @@ article.page__tit__info .page__des {
     color: #666666;
     word-break: keep-all;
     /* padding: 10px */
-    margin:0 5px;
+    margin: 0 5px;
 
 }
 
 article.page__tit__info .page__des p {
     padding: 0.5rem 0 1rem;
 }
-
 
 article.page__tit__info .page__des h1 {
     padding-bottom: 30px;
@@ -1290,7 +1287,7 @@ article.page__tit__info .page__des li {
 }
 
 article.page__tit__info .page__des .mission {
-    float:left;
+    float: left;
     padding: 0 25px 20px 0;
     width: 28%;
 }
@@ -1301,14 +1298,14 @@ article.page__tit__info .page__des .vision {
     width: 50%;
 }
 
-article.page__tit__info .page__des h3{
+article.page__tit__info .page__des h3 {
     padding-top: 30px;
     font-weight: bold;
 
 }
 
 article.page__tit__info .page__des .st {
-    font-family:'Bahnschrift';
+    font-family: 'Bahnschrift';
 }
 
 article.page__tit__info .page__des #img1 {
@@ -1317,7 +1314,6 @@ article.page__tit__info .page__des #img1 {
     /* max-width: 100%;
     height: auto; */
 }
-
 
 .vol_sch_box {
     display: flex;
@@ -1363,7 +1359,7 @@ article.page__tit__info .page__des #img1 {
     width: 256px;
     height: 197px;
     overflow: hidden;
-    margin:0 auto;
+    margin: 0 auto;
 
     /* display: table-cell;
     vertical-align: middle; */
@@ -1372,8 +1368,7 @@ article.page__tit__info .page__des #img1 {
 .vol_box_img img {
     width: 100%;
     height: 100%;
-    object-fit:scale-down;
-
+    object-fit: scale-down;
 
 }
 
@@ -1384,7 +1379,7 @@ article.page__tit__info .page__des #img1 {
     width: 256px;
     height: 197px;
     overflow: hidden;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .sch_box_img img {
@@ -1394,10 +1389,9 @@ article.page__tit__info .page__des #img1 {
 }
 
 .vision_img {
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     max-width: 100%;
     height: auto;
-
 
 }
 
@@ -1500,16 +1494,6 @@ article.page__tit__info .page__des #img1 {
     top: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
 div.refRoomTable table th {
     background-color: #00a8ff;
     padding: 12px 10px;
@@ -1519,7 +1503,6 @@ div.refRoomTable table th {
 div.refRoomTable table tbody tr td {
     padding: 13px 10px;
     text-align: center;
-
 
 }
 
@@ -1537,7 +1520,6 @@ div.refRoomTable table tbody tr:last-child {
     /* padding: 13px 50px; */
     border-bottom: 1px solid #cccccc;
 }
-
 
 /* ============================== */
 
@@ -1665,10 +1647,8 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
     cursor: e-resize;
 }
 
-
 .oz_intro {
-
-}
+    }
 
 .out_box {
     display: flex;
@@ -1690,8 +1670,8 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
     border: solid 20px #00a8ff;
     /* background-color: #00a8ff; */
     display: inline-block;
-    
-  }
+
+}
 
 .box_line img {
     padding-top: 20px;
@@ -1699,13 +1679,11 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 
 }
 
-  
 .gp {
     margin: 0 40px 25px 0;
     width: 100%;
     height: auto;
     margin-bottom: 60px;
-
 
 }
 
@@ -1714,41 +1692,34 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
     height: auto;
 }
 
-  .b_txt {
-      max-width: 100%;
-      height: auto;
-      color: #333333;
-      word-break:keep-all;  
-      padding-bottom: 60px;
+.b_txt {
+    max-width: 100%;
+    height: auto;
+    color: #333333;
+    word-break: keep-all;
+    padding-bottom: 60px;
 
-  }
+}
 
-  
-  
-  .box_line.one {
-      border-right: none;
-      padding: 0 20px;
+.box_line.one {
+    border-right: none;
+    padding: 0 20px;
 
+}
 
-    
-  }
-
-  .box_line.two {
-    border-left:none;
+.box_line.two {
+    border-left: none;
     background-image: linear-gradient(to bottom, #00a8ff 10%, rgba(255, 255, 255, 0) 0%);
     background-position: left;
     background-size: 3px 15px;
-    
+
     background-repeat: repeat-y;
-  
+
 }
-
-
 
 .page__des.concytec img {
     padding-top: 94px;
 }
-
 
 .out_box_wrap {
     padding: 20px 0;
@@ -1771,11 +1742,11 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
     width: 32%;
     height: 580px;
     /* padding-top: 40%; */
-    border:1px solid#dadada;
+    border: 1px solid#dadada;
     box-sizing: border-box;
     margin: 5px;
     position: relative;
-    word-break:keep-all;
+    word-break: keep-all;
 }
 
 .box_wrap img {
@@ -1789,20 +1760,20 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 }
 
 .box_wrap .el.n2 {
-    position:absolute;
+    position: absolute;
     top: 40%;
     padding: 0 10px;
-} 
+}
 
 .box_wrap .el.n3 {
-    position:absolute;
+    position: absolute;
     top: 85%;
     left: 50%;
     transform: translateX(-50%);
-} 
+}
 
 .a3 .n1 {
-    position:absolute;
+    position: absolute;
     width: 100%;
     top: 5%;
     left: 50%;
@@ -1810,7 +1781,7 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 }
 
 .a4 .n1 {
-    position:absolute;
+    position: absolute;
     width: 100%;
     top: 5%;
     left: 50%;
@@ -1818,7 +1789,7 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 }
 
 .a5 .n1 {
-    position:absolute;
+    position: absolute;
     width: 100%;
     top: 10%;
     left: 50%;
@@ -1826,7 +1797,7 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 }
 
 .a6 .n1 {
-    position:absolute;
+    position: absolute;
     width: 100%;
     top: 7%;
     left: 50%;
@@ -1834,16 +1805,15 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 }
 
 .a7 .n1 {
-    position:absolute;
+    position: absolute;
     width: 100%;
     top: 4%;
     left: 50%;
     transform: translateX(-50%);
 }
 
-
 .a8 .n1 {
-    position:absolute;
+    position: absolute;
     width: 100%;
     top: 5%;
     left: 50%;
@@ -1855,8 +1825,8 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
     /* text-align: center; */
 }
 
-.page__des.ucsm .ucsm_img1 > img{
-    float:right;
+.page__des.ucsm .ucsm_img1 > img {
+    float: right;
     padding: 0 0 30px 30px;
 }
 
@@ -1864,33 +1834,15 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
     max-width: 100%;
 }
 
-
-
-.ourgoals {
-    display: flex;
-    align-items: center;
-    
-}
-
-.ourgoals .goals_img {
-    display: inline-block;
-}
-
-.ourgoals .goals_txt_box {
-    display: inline-block;
-}
-
-
 /* dot new -> */
 .dot_wrap {
     padding-left: 15px;
     /* list-style-position: outside; */
 }
 
-
 .dot_wrap li {
 
-    list-style-type: disc; 
+    list-style-type: disc;
     color: #0b63d0;
 }
 
@@ -1901,21 +1853,39 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 }
 
 .dot_wrap li span > p {
-    color: #666666 ;
+    color: #666666;
     padding: 0 !important;
-    /* display: inline-block; */
+}
 
+.dot_wrap li > p {
+    color: #666666;
 }
 
 .dot_wrap li span > strong {
-    color: #666666 ;
+    color: #666666;
 
 }
 
 /* <- */
 
-
 /* dot old -> */
+
+.ourgoals {
+    display: flex;
+    align-items: center;
+
+}
+
+.ourgoals .goals_img {
+    display: inline-block;
+    flex: 1;
+}
+
+.ourgoals .goals_txt_box {
+    display: inline-block;
+    flex: 2;
+}
+
 .goals_txt_wrap {
     display: flex;
 }
@@ -1938,27 +1908,32 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 
 .dot_txt {
     display: inline-block;
+    color: #666666;
+
 }
 
- .dot_txt li {
+/* .dot_txt li {
     display: inline-block;
-}
+} */
 
 .dot_txt p {
     display: inline-block;
-} 
+    padding-top: 0 !important;
+}
 
 /* <- */
-
-
 
 .inha_txt_img {
     float: right;
     padding: 0 0 25px 25px;
 }
 
+.list_college {
+    padding-left: 25px;
+}
+
 .list_college li {
-    list-style:disc;
+    list-style: disc;
 }
 
 .report {
@@ -1968,40 +1943,33 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
     line-height: 30px;
     border-radius: 25px;
     max-width: 100%;
-
-
 }
 
-
 .report .lf {
-    flex:auto;
-    background: url(../images/dot_img.png) right no-repeat;
+    flex: 1;
+    background: url("../images/dot_img.png") right no-repeat;
+    padding-left: 30px;
 
 }
 
 .report .rh {
-    flex:auto;
+    flex: 1;
+    padding-left: 30px;
+
 }
-  
-
-
 
 .report p {
     display: inline-block;
-    padding: 40px
+    padding: 40px;
 }
 
 .ar {
     /* margin-left: 10px; */
 }
 
-
 .strategy {
     display: flex;
-    align-items:center;
-    justify-content: center;
     flex-wrap: wrap;
-    
 }
 
 .stg_box {
@@ -2011,14 +1979,14 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
     border-radius: 25px;
     background: #e4f2fc;
     position: relative;
-    margin: 10px;
+    margin: 5px;
 }
 
 .stg_box p {
-    padding-left: 5%;
+    padding-left: 20px !important;
     display: inline-block;
-    position:absolute;
-    top:50%;
+    position: absolute;
+    top: 50%;
     transform: translateY(-50%);
 }
 
@@ -2035,45 +2003,31 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
     margin: 2px;
 }
 
-
 .core_pro {
     display: flex;
     flex-wrap: wrap;
-
-
 }
 
 .core_box {
-    flex:1;
+    flex: 1;
 }
 
 .sub_gccei img {
-    float:right;
+    float: right;
     padding: 0 0 25px 25px;
-    /* z-index: 10; */
 }
 
-/* .vs_box {
-    max-width: 55%;
-    height: auto;
-} */
-
 .gccei_vision_mission {
-    /* max-width:100%; */
-    /* padding-top: 5%; */
     max-width: 55%;
     height: auto;
-
 }
 
 .gccei_vision_mission img {
     max-width: 100%;
-    /* max-width: 100%; */
-
 }
 
 .n15_txt_img {
-    float:right;
+    float: right;
     padding: 0 0 25px 25px;
 }
 
@@ -2115,13 +2069,13 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
     height: auto;
 }
 
-.n15_company_img img{
+.n15_company_img img {
     max-width: 98%;
     height: auto;
 }
 
 .staff img {
-    margin:10px;
+    margin: 10px;
 }
 
 .directors_box1 {
@@ -2142,23 +2096,22 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
     width: 325px;
     height: 50px;
     background: #333333;
-    position:absolute;
-    top:50px;
-    left:0;
+    position: absolute;
+    top: 50px;
+    left: 0;
     z-index: 10;
-    color:#fff;
+    color: #fff;
 }
 
 .page__des.ucsp .ucsp_img1 img {
-    float:right;
+    float: right;
     padding: 0 0 25px 25px;
 }
 
 .page__des.unalm .unalm_img1 img {
-    float:right;
+    float: right;
     padding: 0 0 25px 25px;
 }
-
 
 .Manager_box1 {
     /* display: inline-block; */
@@ -2178,11 +2131,11 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
     width: 325px;
     height: 50px;
     background: #333333;
-    position:absolute;
-    top:50px;
-    left:0;
+    position: absolute;
+    top: 50px;
+    left: 0;
     z-index: 10;
-    color:#fff;
+    color: #fff;
 }
 
 .unalm_office {
@@ -2191,7 +2144,7 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 
 .unalm_2 {
     background: #e4f2fc;
-    padding: 15px 30px 15px;
+    padding: 15px 30px;
 }
 
 .unalm_2 li {
@@ -2200,9 +2153,8 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 }
 
 .moto {
-    color:#0b63d0;
+    color: #0b63d0;
 }
-
 
 .uni_1 {
     display: flex;
@@ -2219,34 +2171,38 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
     position: relative;
 }
 
+.uni_office .codi_box p {
+    padding-top: 0 !important;
+}
+
 .uni_office .in_codi_box {
     background: #333333;
     color: #fff;
     top: 70px;
     height: 50px;
     width: 100%;
-    position:absolute;
+    position: absolute;
 }
 
 .uni_office p {
-    position:absolute;
-    top:10px;
+    position: absolute;
+    top: 10px;
     text-align: left;
-    left:20px;
+    left: 20px;
 }
 
 .uni_office span {
-    position:absolute;
-    top:10px;
+    position: absolute;
+    top: 10px;
     text-align: right;
-    right:20px;
+    right: 20px;
 }
 
 .clave {
     display: flex;
 }
 .clave_box {
-    flex:1;
+    flex: 1;
 }
 
 .unmsm_codi {
@@ -2258,10 +2214,10 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 
 .unmsm_codi_box {
     /* flex-shrink: 0; */
-    background: #e4f2fc ;
-    margin:5px;
+    background: #e4f2fc;
+    margin: 5px;
     position: relative;
-    color:#333333;
+    color: #333333;
     width: 310px;
     height: 313px;
     display: flex;
@@ -2275,14 +2231,13 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 
 }
 
-
 .unmsm_codi_box2 {
     /* flex:1; */
-    position:absolute;
+    position: absolute;
     width: 100%;
     height: 60px;
     background: #07b4ee;
-    color:#fff;
+    color: #fff;
     bottom: 0;
     display: flex;
     align-items: center;
@@ -2290,11 +2245,9 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 }
 
 .unsa_img1 {
-    float:right;
+    float: right;
     padding: 0 0 25px 25px;
 }
-
-
 
 .unsa_codi {
     display: flex;
@@ -2305,10 +2258,10 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 
 .unsa_codi_box {
     /* flex: 1 ; */
-    background: #e4f2fc ;
-    margin:10px;
+    background: #e4f2fc;
+    margin: 10px;
     position: relative;
-    color:#333333;
+    color: #333333;
     width: 620px;
     /* max-width: 100%; */
     height: 150px;
@@ -2318,42 +2271,39 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 }
 
 .unsa_codi_box p {
-    padding: 10px 20px;
+    padding: 10px 20px !important;
 
 }
 
 .unsa_codi_box2 p {
-    padding: 15px 20px;
+    padding: 15px 20px !important;
 
 }
 
 .unsa_codi_box span {
-    position:absolute;
+    position: absolute;
     right: 20px;
 }
 
-
 .unsa_codi_box2 {
     /* flex:1; */
-    position:absolute;
+    position: absolute;
     width: 100%;
     height: 90px;
     background: #05a7f3;
-    color:#fff;
+    color: #fff;
     bottom: 0;
     display: flex;
     /* align-items: center; */
 
-
-   
 }
 
 .unsa_codi_box3 {
-    position:absolute;
+    position: absolute;
     width: 100%;
     height: 46px;
     background: #555555;
-    color:#fff;
+    color: #fff;
     bottom: 0;
     display: flex;
     align-items: center;
@@ -2365,22 +2315,19 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 }
 
 .unt_box {
-    flex:1;
-    margin:10px;
+    flex: 1;
+    margin: 10px;
 
 }
 
 .unt_img_group_3 {
-    margin:10px;
+    margin: 10px;
 }
-
 
 .unt_txt_img img {
     max-width: 100%;
     height: auto;
 }
-
-
 
 .udep_codi {
     display: flex;
@@ -2391,26 +2338,27 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 }
 
 .udep_codi_box {
-    background: #e4f2fc ;
-    margin:10px;
+    background: #e4f2fc;
+    margin: 10px;
     position: relative;
-    color:#333333;
+    color: #333333;
     width: 300px;
     height: 448px;
     display: flex;
     box-sizing: border-box;
     overflow: hidden;
+    font-size: 18px;
     /* flex:1; */
 }
 
 .udep_codi_box img {
-    width:100%;
-    height:307px;
-    object-fit:cover;
+    width: 100%;
+    height: 307px;
+    object-fit: cover;
 }
 
 .udep_codi_box p {
-    padding: 10px 20px;
+    padding: 10px 20px !important;
 
 }
 
@@ -2420,56 +2368,53 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 }
 
 .udep_codi_box span {
-    position:absolute;
+    position: absolute;
     right: 20px;
 }
 
-
 .udep_codi_box2 {
     /* flex:1; */
-    position:absolute;
+    position: absolute;
     width: 100%;
     height: 103px;
     background: #05a7f3;
-    color:#fff;
+    color: #fff;
     bottom: 64px;
     display: flex;
     /* align-items: center; */
 
-
-   
 }
 
 .udep_codi_box3 {
-    position:absolute;
+    position: absolute;
     width: 100%;
     height: 46px;
     background: #555555;
-    color:#fff;
+    color: #fff;
     bottom: 0;
     display: flex;
     align-items: center;
 }
 
 .udep_codi_box4 {
-    position:absolute;
+    position: absolute;
     width: 100%;
     height: 64px;
     background: #fff;
-    color:#666666;
-    bottom: 0px;
+    color: #666666;
+    bottom: 0;
     display: flex;
     align-items: center;
 
 }
 
 .unheval_txt_img2 {
-    float:left;
+    float: left;
     padding: 0 25px 5px 0;
 }
 
 .page__des.business .n1 {
-    color:#0fadff
+    color: #0fadff;
 }
 
 .page__des.business .par1 {
@@ -2477,7 +2422,7 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 }
 
 .page__des.business .par1 .chil1 {
-    flex:1;
+    flex: 1;
     white-space: nowrap;
 }
 
@@ -2496,12 +2441,12 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 
 .page__des.business .par2 .chil1 {
     padding: 10px;
-    flex:1;
-    font-size: 1.31vw;
+    flex: 2;
+    /* font-size: 1.1vw; */
 }
 
 .page__des.business .par2 .chil2 {
-    flex:3;
+    flex: 4;
     /* overflow: hidden; */
     padding: 10px;
     /* width: 50%; */
@@ -2513,7 +2458,6 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
     height: 100%;
     object-fit: cover;
 }
-
 
 .page__des.business .par3 {
     display: flex;
@@ -2546,8 +2490,3 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 .page__des.business .ict_innovacion_txt_img img {
     width: auto;
 }
-
-
-
-
-

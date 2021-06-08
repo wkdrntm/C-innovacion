@@ -2026,6 +2026,43 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
     max-width: 100%;
 }
 
+.gccei_techno_valley {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.gccei_box {
+    /* flex:1; */
+    padding: 10px;
+
+}
+
+.gccei_techno_valley img {
+    
+    object-fit: cover;
+    max-width: 410px;
+    height: auto;
+}
+
+.gccei_leadership {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.leadership_box {
+    /* flex:1; */
+    padding: 10px;
+
+}
+
+.gccei_leadership img {
+    
+    object-fit: cover;
+    max-width: 300px;
+    height: auto;
+}
+
+
 .n15_txt_img {
     float: right;
     padding: 0 0 25px 25px;

@@ -2028,25 +2028,64 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
 
 .gccei_techno_valley {
     display: flex;
-    flex-wrap:wrap;
+    /* flex-wrap:wrap; */
 }
 
 .gccei_box {
-    /* flex:1; */
     padding: 10px;
-
 }
 
-.gccei_techno_valley img {
+.gccei_box img {
     
-    object-fit: cover;
+    /* object-fit: cover;
     max-width: 410px;
+    height: auto; */
+
+    flex:1;
+    max-width: 100%;
+    height: auto;
+}
+
+.gccei_vision_mission img {
+    max-width: 100%;
+}
+
+
+
+.acceleration {
+    display: flex;
+    /* flex-wrap:wrap; */
+}
+
+.acceleration_box {
+    padding: 10px;
+}
+
+.acceleration_box img {
+    flex:1;
+    max-width: 100%;
     height: auto;
 }
 
 .gccei_leadership {
     display: flex;
     flex-wrap:wrap;
+}
+
+.metrix_box {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.m_box img {
+    flex:1;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.gccei_box img {
+    max-width: 100%;
 }
 
 .leadership_box {
@@ -2060,6 +2099,16 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
     object-fit: cover;
     max-width: 300px;
     height: auto;
+}
+
+.gccei_img3 img {
+    float: right;
+    padding: 0 0 25px 25px;
+}
+
+.overview {
+    display: block;
+    text-align: justify;
 }
 
 

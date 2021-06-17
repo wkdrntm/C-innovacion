@@ -423,6 +423,19 @@
         top: 28%;
     }
 
+    .metrix_box {
+        flex-wrap: wrap;
+    }
+
+    .gccei_techno_valley {
+        flex-wrap: wrap;
+
+    }
+
+    .acceleration {
+        flex-wrap: wrap;
+    }
+
 }
 
 @media (max-width: 750px) {
